@@ -31,4 +31,4 @@ with the GUI's expected inputs/outputs.
 - Collaborative software development — integrating code across a team
 
 ## Tools
-Python, scikit-learn.
+Python, scikit-learn, skimage, numpy, matplotlib, os, seaborn, pandas.
