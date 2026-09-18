@@ -12,17 +12,14 @@ to upload their own coral image and get a live classification from the
 trained models.
 
 ## Contents
-- `coral_model.py` — implements and trains six classification models: 
+- `model.py` — implements and trains six classification models: 
   Logistic Regression, MLP (Multi-Layer Perceptron), K-Nearest Neighbors, 
   Ridge Classifier, Naive Bayes, and Radius Neighbors Classifier
-- `coral_interpretation.py` — data visualization of model results and accuracy
-- `coral_gui.py` — graphical interface allowing a user to submit their own image 
-  for classification
 
 ## My Contribution
 I built the classification models (`models.py`), including data splitting, 
 feature extraction into model-ready inputs, training, and evaluation across 
-all six algorithms. Model accuracy visualization tools and the GUI (`gui.py`) 
+all six algorithms. Model accuracy visualization tools and the GUI
 were built by a teammates; I adapted my model code's so it integrated cleanly 
 with the GUI's expected inputs/outputs.
 
